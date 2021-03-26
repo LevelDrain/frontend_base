@@ -1,6 +1,6 @@
-import { hello } from "./sub";
+const init = () => {
+  const $place = document.querySelector('#Place');
+  $place.innerHTML = 'フロントエンド基本環境テスト用';
+}
 
-const message = "Hello World！！";
-
-// sub.jsに定義されたJavaScriptを実行する。
-hello(message);
+onload = init;
