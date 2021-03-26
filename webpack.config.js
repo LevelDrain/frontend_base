@@ -27,6 +27,10 @@ module.exports = {
             // プリセットを指定することで、ES2020 を ES5 に変換
             [
               "@babel/preset-env",
+              {
+                useBuiltIns: "entry",
+                corejs: 3,
+              },
             ],
           ],
         },
