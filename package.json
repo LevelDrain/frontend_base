@@ -22,6 +22,7 @@
     "homepage": "https://github.com/LevelDrain/threejs_playground#readme",
     "devDependencies": {
         "@babel/core": "^7.13.10",
+        "@babel/polyfill": "^7.12.1",
         "@babel/preset-env": "^7.13.12",
         "babel-loader": "^8.2.2",
         "eslint": "^7.22.0",
